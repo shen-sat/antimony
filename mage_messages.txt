@@ -1,0 +1,71 @@
+# Antimony rules
+Controls:
+* arrow keys: move cursor
+* tap x: select relic
+* hold x: form paradox!
+
+*Goal*
+Collect 3 matching relics to form a paradox. Form 5 paradoxes to win!
+
+*Gameplay*
+This is the timeline, It is made up if relics. Each relic has a shape, solar and number
+
+The dot represents the present moment. The right of the dot is the future
+The left of the dot is the past
+
+This is your hand. It is also made of relics. You can use relics in hand to travel back and forth through time to collect relics.
+
+You can use relic numbers to travel forwards in time.
+Here a relic from the future is obtained by:
+* First selecting the relic with number 4 in hand
+* Then selecting the relic in the timeline 4 spaces in the future
+
+You can use relics with matching color or shape to travel backwards in time.
+Here a relic from the past is obtained by:
+* First selecting the ring relic in hand
+* Then selecting the ring relic in the past (matches by shape)
+* Note: in the above scenario, we could have instead obtained the yellow skull in the past (matches by color)
+
+When you have 3 relics in hand that match by shape, color or number, hold x to form a paradox (see bottom right). Remember, 5 paradoxes win the game!
+
+*Skipping a turn*
+You may skip a turn by holding Z. Skipping a turn means replacing a relic in the timeline with one from the relic pool (see below)
+
+*Losing the game*
+This is the paradox counter. It is made up of a number (relic pool) and 3 dots (timer)
+Timer: every time you obtain a relic but do not form a paradox, the dots decrease by 1. When there are no dots left, you have to replace a relic in the timeline from the relic pool
+Relic pool: shows number of relics left in relic pool. You draw from relic pool when:
+* the turn counter (described above) runs out; or
+* you form a paradox
+ When this reaches zero you lose the game!
+
+*One more thing:*
+This is the relic codex: every time you form a paradox, it selects a new color. The selected color means all relics of that colour cannot be used to form a paradox!
+
+
+*Error messages*
+* error: relic is not 4 spaces in future
+* error: relic in past does not match by color or shape
+* error (when counter-reaches-zero swapping): relic must match by shape, color or number
+
+*Instructions*
+* Your adventure begins. Good luck, time mage!
+* Paradox formed:
+	* paradox formed - well done! tap x for next steps
+	* choose relic to replace with relic from pool 
+	* choose relics in timeline to swap with hand
+* paradox not formed and round counter zero:
+	* round counter has run out. Tap x for next steps
+	* choose relic to replace with relic form pool
+		* relic must match by shape, color or number
+	* …skipping turn…
+
+
+ 
+
+
+
+
+
+
+

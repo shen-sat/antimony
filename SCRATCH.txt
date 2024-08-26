@@ -1,0 +1,19 @@
+IN PROGRESS
+
+
+TODO
+- relic
+- timeline
+- hand
+- cursor
+- relic pool
+- relic codex
+- mage
+- stars
+- win
+- game over
+
+NOTES:
+- lose screen: KISS - a reverse white screen with just everything else blue/black/dark. dead relics
+- win screen: TBC
+- after forming paradox: when placinf relics back into timeline you can show some sort of shuffle animation (eg the cards can appear in the time line but not from left to right, maybe middle one first then last then first, to show that they get inserted in a random order) 
